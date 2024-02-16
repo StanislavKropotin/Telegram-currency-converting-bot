@@ -1,7 +1,7 @@
 # Telegram-currency-converting-bot
-Бот возвращает цену на определённое количество валюты (список валют в файле "Config.py").
-Использовал библиотеку "pytelegrambotapi".
-Для получения курса валют использовал API (запросы отправляются с помощью библиотеки Requests).
-Для парсинга испоьзуется JSON.
-Написаны исключения - чтобы при запорсе пользователем того, чего нет ему выводилось сообщение об ошибке и бот не прекращал работу.
-Исключения, словарь и токен вынесены в отдельные файлы.
+The bot returns the price for a certain amount of currency (list of currencies in the "Config.py" file).
+I used the "pytelegrambotapi" library.
+To get the exchange rate I used the API (requests are sent using the Requests library).
+JSON is used for parsing.
+Exceptions have been written so that if the user blocks something that is not there, an error message is displayed and the bot does not stop working.
+Exceptions, dictionary and token are placed in separate files.
